@@ -2,11 +2,16 @@ package main
 
 import "fmt"
 
+//Alias or typedef in go
+type my_int int
+
+
 var (
 	global_string = "this is a global_string"
 	integer_32 int32 = 12
 	integer_64 int64 = 34
         float_64 float64 = 40.
+	my_int_instance my_int = 56
 )
 
 const (
